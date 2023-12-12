@@ -45,7 +45,7 @@ let package = Package(
             name: "ExternalDependencies",
             path: "./Dummy",
             resources: [
-                .process("Resources")
+                .copy("Models")
             ],
             linkerSettings: [
                 .linkedLibrary("c++"),
