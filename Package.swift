@@ -44,6 +44,9 @@ let package = Package(
         .target(
             name: "ExternalDependencies",
             path: "./Dummy",
+            resources: [
+                .copy("Resources")
+            ],
             linkerSettings: [
                 .linkedLibrary("c++"),
                 .linkedFramework("AVFoundation"),
