@@ -1,0 +1,20 @@
+name: New Release
+
+on:
+  push:
+    tags:
+      - v*
+    tags-ignore:        
+      - v*-snapshot*
+
+jobs:
+  new_release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: https://developer.vonage.com/en/vonage-client-sdk/sdk-documentation/ios/release-notes
+          prerelease: ${{ contains(github.ref_name, '-') }}
