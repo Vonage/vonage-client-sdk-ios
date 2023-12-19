@@ -69,28 +69,28 @@ let package = Package(
         // Internal Frameworks
         .binaryTarget(
             name: "NXMCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.2/ios/SPM-NXMCore-1.4.0-alpha.2-Release.zip",
-            checksum: "a7cde861ad11c031f17696edbee3be3c1f972cb41225c1cf2ff27f1419a5d7a2"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.3/ios/SPM-NXMCore-1.4.0-alpha.3-Release.zip",
+            checksum: "e9a6572c3b6235bedfe96e0aef9d616d710cb36b501df544bd223c2d8019adea"
         ),
         .binaryTarget(
             name: "VonageClientSDKCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.2/ios/SPM-VonageClientSDKCore-1.4.0-alpha.2-Release.zip",
-            checksum: "586c4650df7a81e00f2b77a200f57a432fe985acbeaa33dd79add620f8433f1f"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.3/ios/SPM-VonageClientSDKCore-1.4.0-alpha.3-Release.zip",
+            checksum: "7f3ce8fc52d74b7fec992c1b2c03c3d4994eac064555e4dbc46cec3445d62d62"
         ),
         .binaryTarget(
             name: "VonageClientSDKChat",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.2/ios/SPM-VonageClientSDKChat-1.4.0-alpha.2-Release.zip",
-            checksum: "5864998ece38980cc37379f974695e631152f2ac89fb8f6b68e8ebaae9ef16aa"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.3/ios/SPM-VonageClientSDKChat-1.4.0-alpha.3-Release.zip",
+            checksum: "242e8f14d013e6ae1ac81d85758139174f28d2fd323926d182434e95d9da56bd"
         ),
         .binaryTarget(
             name: "VonageClientSDKVoice",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.2/ios/SPM-VonageClientSDKVoice-1.4.0-alpha.2-Release.zip",
-            checksum: "ab2bd274858ab3db90cfa49ec629e64f744029b5ff2c64a6746a1699655173c5"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.3/ios/SPM-VonageClientSDKVoice-1.4.0-alpha.3-Release.zip",
+            checksum: "a588c193d8dcad77b21ed2197d48c89602bfa438aedb2205cf566892bf6ac8a0"
         ),
         .binaryTarget(
             name: "VonageClientSDK",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.2/ios/SPM-VonageClientSDK-1.4.0-alpha.2-Release.zip",
-            checksum: "5667ec74c3cff613f4529d393c272d83c1edc692e82309683a38b00ef0384863"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.4.0-alpha.3/ios/SPM-VonageClientSDK-1.4.0-alpha.3-Release.zip",
+            checksum: "bcd0e26ac63676610fa350df84460686ff02a06f6d22e69f78ece7c8714f8546"
         ),
     ]
 )
