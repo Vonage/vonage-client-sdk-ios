@@ -66,13 +66,13 @@ let package = Package(
         .binaryTarget(
             name: "VonageWebRTC",
             url: "https://d3opqjmqzxf057.cloudfront.net/vonage-webrtc/pod/vonagewebrtc/release/99.10.34/VonageWebRTC-99.10.34.zip",
-            checksum: ""
+            checksum: "a0e7f2a9dac403e3116dff6e67d14da9c232d2ea1c9205b28a357b43dc427432"
         ),
         // VonageMLTransformersAudioNoiseSuppression
         .binaryTarget(
             name: "VonageMLTransformersAudioNoiseSuppression",
             url: "https://d3opqjmqzxf057.cloudfront.net/vonage-mltransformers-audio-noise-suppression/pod/vonagemltransformersaudionoisesuppression/release/1.0.0-beta.10/VonageMLTransformersAudioNoiseSuppression.xcframework.1.0.0-beta.10.zip",
-            checksum: ""
+            checksum: "4df5be39b5429f9a00158a3ee0bfb8da68780b7f990e8f41118c09d086ffa225"
         ),
         // Internal Frameworks
         .binaryTarget(
