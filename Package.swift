@@ -12,6 +12,7 @@ let package = Package(
             targets: [
                 "ExternalDependencies",
                 "VonageWebRTC",
+                "VonageMLTransformersAudioNoiseSuppression",
                 "NXMCore",
                 "VonageClientSDKCore",
                 "VonageClientSDKVoice"
@@ -30,6 +31,7 @@ let package = Package(
             targets: [
                 "ExternalDependencies",
                 "VonageWebRTC",
+                "VonageMLTransformersAudioNoiseSuppression",
                 "NXMCore",
                 "VonageClientSDKCore",
                 "VonageClientSDKVoice",
@@ -64,33 +66,39 @@ let package = Package(
         .binaryTarget(
             name: "VonageWebRTC",
             url: "https://d3opqjmqzxf057.cloudfront.net/vonage-webrtc/pod/vonagewebrtc/release/99.10.34/VonageWebRTC-99.10.34.zip",
-            checksum: "a0e7f2a9dac403e3116dff6e67d14da9c232d2ea1c9205b28a357b43dc427432"
+            checksum: ""
+        ),
+        // VonageMLTransformersAudioNoiseSuppression
+        .binaryTarget(
+            name: "VonageMLTransformersAudioNoiseSuppression",
+            url: "https://d3opqjmqzxf057.cloudfront.net/vonage-mltransformers-audio-noise-suppression/pod/vonagemltransformersaudionoisesuppression/release/1.0.0-beta.10/VonageMLTransformersAudioNoiseSuppression.xcframework.1.0.0-beta.10.zip",
+            checksum: ""
         ),
         // Internal Frameworks
         .binaryTarget(
             name: "NXMCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.5.0-alpha.3/ios/SPM-NXMCore-1.5.0-alpha.3-Release.zip",
-            checksum: "f5a042e03ecf696562473c939ce42ba4ae5f7c228a9f143fb0d725c292f21381"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.0.0-localtest/ios/SPM-NXMCore-1.0.0-localtest-Release.zip",
+            checksum: "8c3adce515e74734e62f2cd4d95d74b1aa71eef82ac193a4ed96337c2542db57"
         ),
         .binaryTarget(
             name: "VonageClientSDKCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.5.0-alpha.3/ios/SPM-VonageClientSDKCore-1.5.0-alpha.3-Release.zip",
-            checksum: "9d035c935525810904fa7b1104507c6918bde66b0d5244f0990310afe0de251c"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.0.0-localtest/ios/SPM-VonageClientSDKCore-1.0.0-localtest-Release.zip",
+            checksum: "6aa0c372fb5b678575c5b2582d274f0fd81bb2684100583b83c9096b0cd669b9"
         ),
         .binaryTarget(
             name: "VonageClientSDKChat",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.5.0-alpha.3/ios/SPM-VonageClientSDKChat-1.5.0-alpha.3-Release.zip",
-            checksum: "221ffa0d287f7b04f11a3918a7474981ead028f0ddf0d659e66e7206518b4546"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.0.0-localtest/ios/SPM-VonageClientSDKChat-1.0.0-localtest-Release.zip",
+            checksum: "fb56408218485710141a8b2668c45a371664c9df5dc5d846c5bc30b866294f3d"
         ),
         .binaryTarget(
             name: "VonageClientSDKVoice",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.5.0-alpha.3/ios/SPM-VonageClientSDKVoice-1.5.0-alpha.3-Release.zip",
-            checksum: "aab4dce61962093fd1179cc02f5d693378dd4bfdba638285e1776bc90ce6dd9c"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.0.0-localtest/ios/SPM-VonageClientSDKVoice-1.0.0-localtest-Release.zip",
+            checksum: "c067cc5c6e96f78b750c8d778c17abed6e5522fa454bc60b1a350975fa206fda"
         ),
         .binaryTarget(
             name: "VonageClientSDK",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.5.0-alpha.3/ios/SPM-VonageClientSDK-1.5.0-alpha.3-Release.zip",
-            checksum: "6796530f3100b8c33c6b32e58609cce43043d636232a580ac8094ae751c7c1c9"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.0.0-localtest/ios/SPM-VonageClientSDK-1.0.0-localtest-Release.zip",
+            checksum: "740950b01e89c8737ac98007c30059bfc4fba76c464044c7e8b71ff2b3605a4a"
         ),
     ]
 )
