@@ -7,8 +7,8 @@ The Client SDK is intended to provide a ready solution for developers to build P
 This Swift Package has three libraries Voice, Chat and Combined. You must only use **One** library.
 
 - `VonageClientSDKVoice` This is the Voice library.
-- `VonageClientSDKChat` This is the Chat library. **In beta stage**.
-- `VonageClientSDK` This is the Combined library. **In beta stage**.
+- `VonageClientSDKChat` This is the Chat library.
+- `VonageClientSDK` This is the Combined library.
 
 ## Installation Notes
 
