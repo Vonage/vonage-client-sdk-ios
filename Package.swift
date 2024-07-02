@@ -71,27 +71,27 @@ let package = Package(
         .binaryTarget(
             name: "NXMCore",
             url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.6.2-alpha.0/ios/SPM-NXMCore-1.6.2-alpha.0-Release.zip",
-            checksum: "8387c9b6363bc0643e6b5d88002adabb286eede981dea2a40edf3dbebd816a84"
+            checksum: "1137fc7b7e208814091e2c514ef6ed246a2ae7f999874a9175c5dfdedc639f49"
         ),
         .binaryTarget(
             name: "VonageClientSDKCore",
             url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.6.2-alpha.0/ios/SPM-VonageClientSDKCore-1.6.2-alpha.0-Release.zip",
-            checksum: "43db72c01132fe354896cea376b374dc30d78e1378b1acec2668845d1891a45d"
+            checksum: "9b100bc8801cb4c889992a640504884cf889cefca0923e1c52b2555045e59443"
         ),
         .binaryTarget(
             name: "VonageClientSDKChat",
             url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.6.2-alpha.0/ios/SPM-VonageClientSDKChat-1.6.2-alpha.0-Release.zip",
-            checksum: "f2570ca909d9c56da5768ceea1a59f803d0697200710c16070823404a94e6b8a"
+            checksum: "77adb6104f90e91abc4ca87b7a302d77d15c98b8b7e969649b7bde6980230663"
         ),
         .binaryTarget(
             name: "VonageClientSDKVoice",
             url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.6.2-alpha.0/ios/SPM-VonageClientSDKVoice-1.6.2-alpha.0-Release.zip",
-            checksum: "a245d0492fd395f6bd06910d8d31c03cbf2448151d82d6e47874c178c0e6beea"
+            checksum: "7e1f80661a0a7a3fc67bad604e8679681eb94b5720a11cc1aa8320cf494f1126"
         ),
         .binaryTarget(
             name: "VonageClientSDK",
             url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/1.6.2-alpha.0/ios/SPM-VonageClientSDK-1.6.2-alpha.0-Release.zip",
-            checksum: "383abc572512e6b0dd269116f74da3af4f915510c02af91e34fd2ee491dbd8a8"
+            checksum: "60bebe610d9b4d7da4d8de00fe6b087560a00610ecb12c5b144f4230f8b5a502"
         ),
     ]
 )
