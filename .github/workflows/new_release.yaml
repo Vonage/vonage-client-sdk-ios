@@ -22,5 +22,5 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          body: https://developer.vonage.com/en/vonage-client-sdk/sdk-documentation/ios/release-notes
+          body: https://developer.vonage.com/en/vonage-client-sdk/release-notes
           prerelease: ${{ contains(github.ref_name, '-') }}
