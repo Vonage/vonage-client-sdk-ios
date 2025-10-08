@@ -18,17 +18,6 @@ let package = Package(
             ]
         ),
         .library(
-            name: "VonageClientSDKEmergency",
-            targets: [
-                "ExternalDependencies",
-                "VonageWebRTC",
-                "NXMCore",
-                "VonageClientSDKCore",
-                "VonageClientSDKVoice",
-                "VonageClientSDKEmergency"
-            ]
-        ),
-        .library(
             name: "VonageClientSDKChat",
             targets: [
                 "NXMCore",
@@ -44,7 +33,6 @@ let package = Package(
                 "NXMCore",
                 "VonageClientSDKCore",
                 "VonageClientSDKVoice",
-                "VonageClientSDKEmergency",
                 "VonageClientSDKChat",
                 "VonageClientSDK"
             ]
@@ -82,33 +70,28 @@ let package = Package(
         // Internal Frameworks
         .binaryTarget(
             name: "NXMCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-snapshot.110.0/ios/SPM-NXMCore-2.1.1-snapshot.110.0-Release.zip",
-            checksum: "7dc502e541cea299129a0f3059a56906f5d5c5178837c9f760cbb72c19055504"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-alpha.0/ios/SPM-NXMCore-2.1.1-alpha.0-Release.zip",
+            checksum: "d4a403cc347e3034056456be05f82cfacf99bf72818db24b43932bfbc815371e"
         ),
         .binaryTarget(
             name: "VonageClientSDKCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-snapshot.110.0/ios/SPM-VonageClientSDKCore-2.1.1-snapshot.110.0-Release.zip",
-            checksum: "ab46b4d6f579b836e625811f8edfe7b5f68e3e3f4d8b13a412f230791ca5153a"
-        ),
-        .binaryTarget(
-            name: "VonageClientSDKVoice",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-snapshot.110.0/ios/SPM-VonageClientSDKVoice-2.1.1-snapshot.110.0-Release.zip",
-            checksum: "9ebf675ad568b59d2496244981bf6b78cfbe3349d2a030f0c78f4bd6d22524c9"
-        ),
-        .binaryTarget(
-            name: "VonageClientSDKEmergency",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-snapshot.110.0/ios/SPM-VonageClientSDKEmergency-2.1.1-snapshot.110.0-Release.zip",
-            checksum: "bf65a41fa61f693f66688137e91f2e6360a362c5cde04e1df66877cfbe044401"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-alpha.0/ios/SPM-VonageClientSDKCore-2.1.1-alpha.0-Release.zip",
+            checksum: "9fb01360c924488d4a8bcee1a061e30f19a363f616a1d028c698ef69cb17c49e"
         ),
         .binaryTarget(
             name: "VonageClientSDKChat",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-snapshot.110.0/ios/SPM-VonageClientSDKChat-2.1.1-snapshot.110.0-Release.zip",
-            checksum: "af6d8c9a39609a3e3aa6f73ebf75bd926f57148bd44e6e14bfaaa6bcb66cb1b6"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-alpha.0/ios/SPM-VonageClientSDKChat-2.1.1-alpha.0-Release.zip",
+            checksum: "8635de83381780c9b2a5aa29fb5063f558aaae70e09811af445fff5adbc2e8d0"
+        ),
+        .binaryTarget(
+            name: "VonageClientSDKVoice",
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-alpha.0/ios/SPM-VonageClientSDKVoice-2.1.1-alpha.0-Release.zip",
+            checksum: "3db7a9ad4df065a4826894f59a5a288178c63a37365a2ce83032ad9b6cc19086"
         ),
         .binaryTarget(
             name: "VonageClientSDK",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-snapshot.110.0/ios/SPM-VonageClientSDK-2.1.1-snapshot.110.0-Release.zip",
-            checksum: "a7ba569df90dc01de5c16ac4d9f10c7888130f12a485fbd533f341dcc3d138c6"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.1-alpha.0/ios/SPM-VonageClientSDK-2.1.1-alpha.0-Release.zip",
+            checksum: "632588c10f5fd39659d12fcf4a6eaf4d73e42bd6433363839704e1ff6f5ed902"
         ),
     ]
 )
