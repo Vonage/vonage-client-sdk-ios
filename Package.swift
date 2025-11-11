@@ -18,6 +18,17 @@ let package = Package(
             ]
         ),
         .library(
+            name: "VonageClientSDKEmergency",
+            targets: [
+                "ExternalDependencies",
+                "VonageWebRTC",
+                "NXMCore",
+                "VonageClientSDKCore",
+                "VonageClientSDKVoice",
+                "VonageClientSDKEmergency"
+            ]
+        ),
+        .library(
             name: "VonageClientSDKChat",
             targets: [
                 "NXMCore",
@@ -33,6 +44,7 @@ let package = Package(
                 "NXMCore",
                 "VonageClientSDKCore",
                 "VonageClientSDKVoice",
+                "VonageClientSDKEmergency",
                 "VonageClientSDKChat",
                 "VonageClientSDK"
             ]
@@ -70,28 +82,33 @@ let package = Package(
         // Internal Frameworks
         .binaryTarget(
             name: "NXMCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-alpha.0/ios/SPM-NXMCore-2.2.0-alpha.0-Release.zip",
-            checksum: "56e1569def624ff3ed29a943ece354098a3670c04adfa6fbd93ab829b8c84cb5"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-NXMCore-2.1.3-snapshot.151.0-Release.zip",
+            checksum: "7531a22dc50530dab4ab543fcdcb5f1901f10fd4bbbe39a5ba932ea2d4a9a9da"
         ),
         .binaryTarget(
             name: "VonageClientSDKCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-alpha.0/ios/SPM-VonageClientSDKCore-2.2.0-alpha.0-Release.zip",
-            checksum: "f60b7189edd6c190686db6d4d56c3f359f445eadfe59226d1246dad15327fd45"
-        ),
-        .binaryTarget(
-            name: "VonageClientSDKChat",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-alpha.0/ios/SPM-VonageClientSDKChat-2.2.0-alpha.0-Release.zip",
-            checksum: "86f864bb48f4a6cafedd59d7176863a8c1cbed1fbfbd48cbeb7e0a30947bb21f"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDKCore-2.1.3-snapshot.151.0-Release.zip",
+            checksum: "5530f19db77790de9d82f3b6f0aff6fe353a42fe9741288e60a092aa932e60cb"
         ),
         .binaryTarget(
             name: "VonageClientSDKVoice",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-alpha.0/ios/SPM-VonageClientSDKVoice-2.2.0-alpha.0-Release.zip",
-            checksum: "046b52aae2833648df269eb76cf637ba41c39756371fd5b9745ee62d86b40941"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDKVoice-2.1.3-snapshot.151.0-Release.zip",
+            checksum: "0cf2e80375e0ad8e6a8d13a0799c6427ca47c82dd100b464bcda56e156dfe1a2"
+        ),
+        .binaryTarget(
+            name: "VonageClientSDKEmergency",
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDKEmergency-2.1.3-snapshot.151.0-Release.zip",
+            checksum: "cceafd7f7326501321344502b7a53f5631a4e88bfc1ef441488ad2f3bf47b561"
+        ),
+        .binaryTarget(
+            name: "VonageClientSDKChat",
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDKChat-2.1.3-snapshot.151.0-Release.zip",
+            checksum: "9eac7554912f3d7ce29a697d771d88e3f30e8306eeca1d1b5993019939ac1073"
         ),
         .binaryTarget(
             name: "VonageClientSDK",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-alpha.0/ios/SPM-VonageClientSDK-2.2.0-alpha.0-Release.zip",
-            checksum: "245308628333bea66046b10674429a0d5731aa0078e95e2b5c67200eddb05ee6"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDK-2.1.3-snapshot.151.0-Release.zip",
+            checksum: "559a5037dc99bdccd00d3b3e8d2e260a525f9cd14b4f8e9659b12ea8afe8f1bc"
         ),
     ]
 )
