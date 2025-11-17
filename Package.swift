@@ -18,17 +18,6 @@ let package = Package(
             ]
         ),
         .library(
-            name: "VonageClientSDKEmergency",
-            targets: [
-                "ExternalDependencies",
-                "VonageWebRTC",
-                "NXMCore",
-                "VonageClientSDKCore",
-                "VonageClientSDKVoice",
-                "VonageClientSDKEmergency"
-            ]
-        ),
-        .library(
             name: "VonageClientSDKChat",
             targets: [
                 "NXMCore",
@@ -44,7 +33,6 @@ let package = Package(
                 "NXMCore",
                 "VonageClientSDKCore",
                 "VonageClientSDKVoice",
-                "VonageClientSDKEmergency",
                 "VonageClientSDKChat",
                 "VonageClientSDK"
             ]
@@ -82,33 +70,28 @@ let package = Package(
         // Internal Frameworks
         .binaryTarget(
             name: "NXMCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-NXMCore-2.1.3-snapshot.151.0-Release.zip",
-            checksum: "7531a22dc50530dab4ab543fcdcb5f1901f10fd4bbbe39a5ba932ea2d4a9a9da"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-snapshot.152.0/ios/SPM-NXMCore-2.2.0-snapshot.152.0-Release.zip",
+            checksum: "c7364397ea0e81906ff0178b56880407a3bb9db3d795016f874c0490179cf27f"
         ),
         .binaryTarget(
             name: "VonageClientSDKCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDKCore-2.1.3-snapshot.151.0-Release.zip",
-            checksum: "5530f19db77790de9d82f3b6f0aff6fe353a42fe9741288e60a092aa932e60cb"
-        ),
-        .binaryTarget(
-            name: "VonageClientSDKVoice",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDKVoice-2.1.3-snapshot.151.0-Release.zip",
-            checksum: "0cf2e80375e0ad8e6a8d13a0799c6427ca47c82dd100b464bcda56e156dfe1a2"
-        ),
-        .binaryTarget(
-            name: "VonageClientSDKEmergency",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDKEmergency-2.1.3-snapshot.151.0-Release.zip",
-            checksum: "cceafd7f7326501321344502b7a53f5631a4e88bfc1ef441488ad2f3bf47b561"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-snapshot.152.0/ios/SPM-VonageClientSDKCore-2.2.0-snapshot.152.0-Release.zip",
+            checksum: "f0dac89eda21136c2858b163723307a421f588e8ba00a5355bc878b1523843b9"
         ),
         .binaryTarget(
             name: "VonageClientSDKChat",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDKChat-2.1.3-snapshot.151.0-Release.zip",
-            checksum: "9eac7554912f3d7ce29a697d771d88e3f30e8306eeca1d1b5993019939ac1073"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-snapshot.152.0/ios/SPM-VonageClientSDKChat-2.2.0-snapshot.152.0-Release.zip",
+            checksum: "f8b278726dd3810ebd8d883b284538746fa5f6e845e2b15ad84c4b0545e51519"
+        ),
+        .binaryTarget(
+            name: "VonageClientSDKVoice",
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-snapshot.152.0/ios/SPM-VonageClientSDKVoice-2.2.0-snapshot.152.0-Release.zip",
+            checksum: "2943e6422a10474a950de2535e5817225f3682961bd415ecb190572bddc96686"
         ),
         .binaryTarget(
             name: "VonageClientSDK",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.1.3-snapshot.151.0/ios/SPM-VonageClientSDK-2.1.3-snapshot.151.0-Release.zip",
-            checksum: "559a5037dc99bdccd00d3b3e8d2e260a525f9cd14b4f8e9659b12ea8afe8f1bc"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.2.0-snapshot.152.0/ios/SPM-VonageClientSDK-2.2.0-snapshot.152.0-Release.zip",
+            checksum: "a81cefc76deb1e9f85e5daa85007415eed75072cb852fbff87e6c00ca1c3cdc3"
         ),
     ]
 )
