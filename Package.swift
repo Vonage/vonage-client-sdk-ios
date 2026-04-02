@@ -11,6 +11,7 @@ let package = Package(
             name: "VonageClientSDKVoice",
             targets: [
                 "ExternalDependencies",
+                "VonageWebRTC",
                 "NXMCore",
                 "VonageClientSDKCore",
                 "VonageClientSDKVoice"
@@ -39,6 +40,7 @@ let package = Package(
             name: "VonageClientSDK",
             targets: [
                 "ExternalDependencies",
+                "VonageWebRTC",
                 "NXMCore",
                 "VonageClientSDKCore",
                 "VonageClientSDKVoice",
@@ -80,33 +82,33 @@ let package = Package(
         // Internal Frameworks
         .binaryTarget(
             name: "NXMCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.0-snapshot.168.0/ios/SPM-NXMCore-2.3.0-snapshot.168.0-Release.zip",
-            checksum: "7166b44cccdb42d32b5c5ddd144f3d0241d1052756d3301a70f1de4f3eef89da"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.1-alpha.0/ios/SPM-NXMCore-2.3.1-alpha.0-Release.zip",
+            checksum: "46a1f2fbeaf23d36a141004114741a2681c3f61cf82d2600d9c396ddf3fac504"
         ),
         .binaryTarget(
             name: "VonageClientSDKCore",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.0-snapshot.168.0/ios/SPM-VonageClientSDKCore-2.3.0-snapshot.168.0-Release.zip",
-            checksum: "7a58f9f2beed41f58d89ae04f422b1e23bd9aae9d871d29a249cda169a502775"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.1-alpha.0/ios/SPM-VonageClientSDKCore-2.3.1-alpha.0-Release.zip",
+            checksum: "455faef224eb182292c4775df6905373813c5d9bdfd7fc4025b4b5df2896ac30"
         ),
         .binaryTarget(
             name: "VonageClientSDKVoice",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.0-snapshot.168.0/ios/SPM-VonageClientSDKVoice-2.3.0-snapshot.168.0-Release.zip",
-            checksum: "33e7529db015cb2b364fe789363060b43e3d82c7d0d00c911d4e7c01cb516e95"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.1-alpha.0/ios/SPM-VonageClientSDKVoice-2.3.1-alpha.0-Release.zip",
+            checksum: "8b6ecbd1e039f6d813d90f42fd6a276b7279465b2ab0a92fb32a3f97219bc6ae"
         ),
         .binaryTarget(
             name: "VonageClientSDKEmergency",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.0-snapshot.168.0/ios/SPM-VonageClientSDKEmergency-2.3.0-snapshot.168.0-Release.zip",
-            checksum: "3955446ee88e4d20b52e42363687fc5b9a7b607b66464458a6cb74339cdaf254"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.1-alpha.0/ios/SPM-VonageClientSDKEmergency-2.3.1-alpha.0-Release.zip",
+            checksum: "59c9d3c89164b7ffaf7f42fee4d982d302a3982b55073860d2d1bf9b3a9852e2"
         ),
         .binaryTarget(
             name: "VonageClientSDKChat",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.0-snapshot.168.0/ios/SPM-VonageClientSDKChat-2.3.0-snapshot.168.0-Release.zip",
-            checksum: "1671ecc0c911706707768b9f0fd7e9505153c3cd7812a54d51b8a72514ef5800"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.1-alpha.0/ios/SPM-VonageClientSDKChat-2.3.1-alpha.0-Release.zip",
+            checksum: "fdcb94d61c2b94025169177bc13a1c439f4aa99102f159543b71efb385b7569b"
         ),
         .binaryTarget(
             name: "VonageClientSDK",
-            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.0-snapshot.168.0/ios/SPM-VonageClientSDK-2.3.0-snapshot.168.0-Release.zip",
-            checksum: "836f5088877a33fd7dd82d964fe02cb93e6ccf22effc6e97602c6eaf344426a4"
+            url: "https://cs-sdk.main0.api.rtc.prd.euw1.vonagenetworks.net/public/2.3.1-alpha.0/ios/SPM-VonageClientSDK-2.3.1-alpha.0-Release.zip",
+            checksum: "9e2dab3f342a14735da5fabc01e7fd57cf3a51dc11d16e8f6052957ae6b6b886"
         ),
     ]
 )
