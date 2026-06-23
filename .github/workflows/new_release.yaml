@@ -1,5 +1,12 @@
 name: New Release
 
+# Creates a GitHub Release on this SPM mirror repo whenever a stable or
+# pre-release tag (alpha / beta / rc) is pushed by the upstream
+# `nexmoclient-sdk-core-kmp` publish pipeline. Snapshot tags
+# (`v*-snapshot.YYYYMMDDHHmm`) deliberately don't match any include
+# below, so SPM gets the tag for resolution but no GitHub Release is
+# cut — snapshots are not customer-announced events.
+
 permissions:
   contents: write
 
@@ -10,7 +17,6 @@ on:
       - v[0-9]+.[0-9]+.[0-9]+-alpha.[0-9]+
       - v[0-9]+.[0-9]+.[0-9]+-beta.[0-9]+
       - v[0-9]+.[0-9]+.[0-9]+-rc.[0-9]+
-      - '!v[0-9]+.[0-9]+.[0-9]+-snapshot.[0-9]+.0'
 
 jobs:
   new_release:
@@ -18,9 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           body: https://developer.vonage.com/en/vonage-client-sdk/release-notes
           prerelease: ${{ contains(github.ref_name, '-') }}
