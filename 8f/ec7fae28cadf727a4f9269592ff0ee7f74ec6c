@@ -1,0 +1,19 @@
+.github/workflows/new_release.yaml
+  s_d71bfff7aaab70::t_f2b3f5c5b4e751 3-9,27,29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.10",
+  "base_commit_sha": "8fec7fae28cadf727a4f9269592ff0ee7f74ec6c",
+  "prompts": {},
+  "sessions": {
+    "s_d71bfff7aaab70": {
+      "agent_id": {
+        "tool": "kiro",
+        "id": "sess_8a3e437d-a1f7-4a68-8a52-de94d51197c3",
+        "model": "auto"
+      },
+      "human_author": "Salvatore Di Cara <salvodicara@gmail.com>"
+    }
+  }
+}
