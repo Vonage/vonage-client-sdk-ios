@@ -1,0 +1,10 @@
+{
+  "description": [
+    "Renovate (Mend) is disabled for this repo, mirroring the upstream nexmoclient-sdk-core-kmp config (see GH #920 D21).",
+    "This repo is a distribution mirror: Package.swift is generated and force-pushed by the upstream iOS publish pipeline, so a bot must never open PRs against it. The only real dependencies are the two actions in .github/workflows/new_release.yaml.",
+    "Mend is retained org-wide as the SCA scanner + PR gate (WhiteSource Security/License Check statuses), not as a PR-raising bot.",
+    "Disabling this also stops the Dependency Dashboard issue being recreated (Vonage/vonage-client-sdk-ios#6).",
+    "Do not re-enable without amending GH #920 D21."
+  ],
+  "enabled": false
+}
