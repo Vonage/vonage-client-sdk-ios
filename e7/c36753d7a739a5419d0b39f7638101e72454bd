@@ -1,0 +1,24 @@
+Package.swift
+  s_91e81302a3ed1f::t_d9d27a899330a2 106
+  s_91e81302a3ed1f::t_76c5c2f09e0d60 86
+  s_91e81302a3ed1f::t_156dbecb38a5d4 101
+  s_91e81302a3ed1f::t_4ab8877292fcbf 91
+  s_91e81302a3ed1f::t_4174313a279d87 111
+  s_91e81302a3ed1f::t_84e309fcfe631a 96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "e7c36753d7a739a5419d0b39f7638101e72454bd",
+  "prompts": {},
+  "sessions": {
+    "s_91e81302a3ed1f": {
+      "agent_id": {
+        "tool": "kiro",
+        "id": "sess_7ac365a8-89e3-406a-a064-289a739f6cb3",
+        "model": "auto"
+      },
+      "human_author": "Salvatore Di Cara <salvodicara@gmail.com>"
+    }
+  }
+}
