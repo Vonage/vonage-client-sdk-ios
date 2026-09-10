@@ -1,0 +1,19 @@
+.github/renovate.json
+  s_91e81302a3ed1f::t_8883e3dbf78f47 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "40d8c29b7c915750aed9bd2b69f4d6444c3d2175",
+  "prompts": {},
+  "sessions": {
+    "s_91e81302a3ed1f": {
+      "agent_id": {
+        "tool": "kiro",
+        "id": "sess_7ac365a8-89e3-406a-a064-289a739f6cb3",
+        "model": "auto"
+      },
+      "human_author": "Salvatore Di Cara <salvodicara@gmail.com>"
+    }
+  }
+}
